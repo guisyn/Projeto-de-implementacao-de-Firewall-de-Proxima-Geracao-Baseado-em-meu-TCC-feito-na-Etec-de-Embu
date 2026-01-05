@@ -19,7 +19,7 @@ O firewall foi configurado com três interfaces lógicas para isolamento de trá
 ## 🛠️ Acesso Administrativo (WebGUI)
 O acesso à interface de gerenciamento foi estabelecido através do navegador na máquina física, apontando para o IP da interface de Gerenciamento.
 
-![Dashboard OPNsense](dashboard_opnsense.jpg)
+![Dashboard OPNsense](dashboard_opnsense.PNG)
 *Dashboard principal exibindo o status operacional das interfaces e serviços.*
 
 ## 🛡️ Planejamento de Regras de Firewall
