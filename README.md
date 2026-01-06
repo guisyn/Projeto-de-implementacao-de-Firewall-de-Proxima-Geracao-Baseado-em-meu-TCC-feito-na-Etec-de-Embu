@@ -12,14 +12,14 @@ O objetivo principal foi criar um ambiente controlado e seguro para uma pequena 
 Clique nos links abaixo para acessar o detalhamento de cada etapa:
 
 ### 📑 [Relatório 0: Setup e Conectividade Base](Relatório_0.md)
-* Configuração das 3 interfaces (WAN, Gerenciamento e Clientes).
+* Configuração das 3 interfaces: WAN, Gerenciamento e Clientes.
 * Topologia lógica e acesso à WebGUI.
 
 ### 📑 [Relatório I: Conectividade, DHCP e DNS](Relatório_1.md)
 * Validação do host Ubuntu na rede interna.
 * Atribuição dinâmica de IPs (DHCP) e resolução de nomes (DNS).
 
-### 📑 [Relatório II: Segurança de Perímetro e Filtros](Relatório_2.md)
+### 📑 [Relatório II: Segurança de Rede e Filtragem de Pacotes](Relatório_2.md)
 * Bloqueios de portas lógicas e sites (Aliases).
 * Análise de logs em tempo real (Live View) comprovando os bloqueios.
 
