@@ -1,4 +1,4 @@
-# 📂 Relatório II: Segurança de Perímetro e Filtros de Acesso
+# 📂 Relatório II: Segurança de Rede e Filtragem de Pacotes
 
 Este relatório detalha a implementação das políticas de segurança na interface **CLIENTES**, focando em garantir a integridade da rede interna através de bloqueios estratégicos e monitoramento em tempo real.
 
