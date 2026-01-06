@@ -1,6 +1,6 @@
 # 🛡️ Implementação de Firewall de Próxima Geração (NGFW) com OPNsense
 
-Este repositório contém a documentação técnica e as evidências da implementação de uma infraestrutura de rede segura em um ambiente virtualizado utilizando o firewall **OPNsense**. Todo o projeto foi baseado no TCC que realizei em grupo na Etec de Embu, onde a idéia era reutilizar PCs velhos e transformar-los em um firewall eficáz. Agora com meu curso concluído, resolvi refazer este projeto em ambiente virtual para usar como material de estudo e portfólio. O projeto foi dividido em relatórios que cobrem desde a base de redes até a segurança avançada e integridade de dados.
+Este repositório contém a documentação técnica e as evidências da implementação de uma infraestrutura de rede segura em um ambiente virtualizado utilizando o firewall **OPNsense**. Todo o projeto foi baseado no TCC que realizei em grupo na Etec de Embu, onde a idéia era reutilizar PCs velhos e transformar-los em um firewall eficáz. Agora com meu curso concluído, resolvi refazer este projeto em ambiente virtual para usar como material de estudo e portfólio. O projeto foi dividido em 6 relatórios que cobrem desde a base de redes até a segurança avançada e integridade de dados.
 
 ## 🚀 Visão Geral do Projeto
 O objetivo principal foi criar um ambiente controlado e seguro para uma pequena infraestrutura corporativa simulada, utilizando virtualização através do VMware e sistemas open-source.
