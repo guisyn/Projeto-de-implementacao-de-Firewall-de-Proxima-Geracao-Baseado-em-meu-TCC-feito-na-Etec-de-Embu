@@ -1,4 +1,4 @@
-# 📂 Relatório V: Backup e Integridade dos Dados (Disaster Recovery)
+# 📂 Relatório V: Backup e Confidencialidade dos Dados (Disaster Recovery)
 
 Este relatório final documenta a estratégia de continuidade de negócio aplicada ao firewall OPNsense, garantindo a preservação de todas as configurações, regras e certificados implementados nos módulos anteriores.
 
@@ -22,7 +22,7 @@ Com a execução deste último módulo, o projeto atingiu todos os objetivos pro
 1. **Infraestrutura:** Conectividade base e serviços DHCP/DNS validados.
 2. **Segurança:** Bloqueios de perímetro e filtros de conteúdo comprovados via log.
 3. **Acesso Remoto:** Túnel OpenVPN estabelecido com criptografia de ponta a ponta.
-4. **Integridade:** Garantia de continuidade através de backups seguros.
+4. **Disponibilidade:** Garantia de continuidade através de backups seguros.
 
 ---
 **Status Final do Projeto:** ✅ Concluído, Documentado e Protegido.
