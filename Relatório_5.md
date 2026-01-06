@@ -5,7 +5,7 @@ Este relatório final documenta a estratégia de continuidade de negócio aplica
 ## 🔒 Política de Backup Criptografado
 A segurança da informação foi mantida até o processo de exportação. O backup não consiste apenas em um arquivo de texto, mas em um pacote de dados protegido para evitar o vazamento de chaves privadas e senhas.
 
-![Configuração de Backup](b.PNG)
+![Configuração de Backup](download_backup.PNG)
 *Interface de exportação configurada com a opção **"Encrypt this configuration file"** habilitada, utilizando criptografia AES-256.*
 
 ## 📁 Arquivo de Configuração (XML)
@@ -14,7 +14,7 @@ A inteligência de toda a rede foi consolidada em um arquivo compacto de aproxim
 * Todas as regras de firewall e labels de log.
 * Certificados digitais da CA e usuários da VPN.
 
-![Arquivo Exportado](backup2.PNG)
+![Arquivo Exportado](backup_pasta.PNG)
 *Evidência do arquivo `config-OPNsense...xml` salvo no diretório local, pronto para ser utilizado em uma eventual restauração de desastre (Disaster Recovery).*
 
 ## 🎯 Conclusão do Projeto
