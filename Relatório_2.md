@@ -30,7 +30,7 @@ Tentativa de acesso ao domínio `facebook.com`.
 A prova técnica definitiva é o **Live View** do OPNsense. Ele correlaciona as tentativas de acesso com as regras mostradas no Relatório 0.
 
 ![Logs de Bloqueio](mon_logs.PNG)
-*Filtrei para mostrar apenas os logs em vermelho, que exibem claramente a ação de **Block**, a interface (CLIENTES), o IP de origem (`192.168.10.100`) e a **Label** da regra que causou o bloqueio.*
+*Filtrei para mostrar apenas os logs em vermelho, que exibem claramente a ação de **Block**, a interface (CLIENTES), o IP de origem (`192.168.10.100`) e a **Label** da regra que causou o bloqueio. Como se pode ver, ela monitora as tentativas de acesso a WebGUI do firewall e a conexão Telnet*
 
 ---
 **Status do Módulo:** ✅ Concluído e Validado através de logs.
