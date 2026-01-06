@@ -4,6 +4,9 @@ Este relatório descreve a implementação de uma VPN (Virtual Private Network) 
 
 ## 🛡️ Infraestrutura de Segurança e Regras WAN
 A viabilização do túnel dependeu de duas configurações críticas realizadas na interface **WAN**, conforme planejado no **Relatório 0**:
+
+![VPN Liberada](firewall_rules_wan.PNG)
+
 1. **Regra de Firewall:** Liberação da porta **1194/UDP** para permitir o tráfego de entrada do protocolo OpenVPN.
 2. **Ajuste de Perímetro:** Desativação do bloqueio de redes privadas (RFC 1918) na WAN, permitindo que o host físico (Windows) se comunique com o firewall virtualizado.
 
