@@ -3,14 +3,17 @@
 Este relatório documenta a infraestrutura inicial do projeto, detalhando a topologia de rede virtualizada e o acesso administrativo ao firewall.
 
 ## 🖥️ Topologia das Máquinas Virtuais
-Para este projeto, utilizei o VMware Workstation 17 Player, foram utilizadas duas máquinas virtuais principais:
+Para este projeto, utilizei o VMware Workstation 17 Player, foram utilizadas duas máquinas virtuais principais.
+
+![VMware Setup](vmware_setup.PNG)
+
 * **OPNsense 25.7:** Atuando como gateway de segurança e firewall de borda.
 * **Ubuntu 18.04 LTS:** Atuando como estação de trabalho (Host) na rede interna (CLIENTES).
 
 ## 🌐 Configuração de Interfaces (Networking)
 O firewall foi configurado com três interfaces lógicas para isolamento de tráfego:
 
-![CLInOPNsense](interfaces_opnsense.PNG)
+![VPN Conectada](vpn_estabelecida.PNG)
 
 | Interface | Configuração (VMware) | Endereço IP | Função |
 | :--- | :--- | :--- | :--- |
