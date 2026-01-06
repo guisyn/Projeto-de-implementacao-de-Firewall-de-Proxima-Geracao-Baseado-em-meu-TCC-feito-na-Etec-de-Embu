@@ -44,4 +44,4 @@ Clique nos links abaixo para acessar o detalhamento de cada etapa:
 * **VPN:** OpenVPN (Criptografia AES-256)
 
 ---
-**Projeto desenvolvido por Guilherme para fins acadêmicos e portfólio técnico.**
+**Projeto desenvolvido por Guilherme Rodrigues para fins acadêmicos e portfólio técnico.**
