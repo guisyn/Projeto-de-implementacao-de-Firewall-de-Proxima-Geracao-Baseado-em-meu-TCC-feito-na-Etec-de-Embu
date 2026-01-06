@@ -17,12 +17,12 @@ Devido às limitações de roteamento do ambiente virtualizado (VMware), o teste
 
 ### 1. Estabelecimento do Túnel
 O cliente **OpenVPN Connect** no Windows confirmou a conexão segura com sucesso.
-![VPN Conectada](vpn1.PNG)
+![VPN Conectada](vpn_estabelecida.PNG)
 *Status "Securely Connected" e teste de **Ping** para o IP virtual `10.0.8.2` com latência inferior a 1ms, comprovando a integridade do tráfego.*
 
 ### 2. Monitoramento de Sessão no Firewall
 Através da WebGUI, é possível auditar a sessão ativa, verificando o IP real de origem e o tráfego gerado pelo usuário.
-![Status do Servidor](vpn2.PNG)
+![Status do Servidor](status_vpn.PNG)
 *Interface de gerenciamento exibindo o status "ok" e a sessão ativa do usuário autenticado.*
 
 ## ⚠️ Observação sobre o Ambiente Virtual
