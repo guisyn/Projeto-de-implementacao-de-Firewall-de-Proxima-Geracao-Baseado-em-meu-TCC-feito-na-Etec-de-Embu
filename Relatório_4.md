@@ -14,6 +14,7 @@ A viabilização do túnel dependeu de duas configurações críticas realizadas
 A segurança do túnel é baseada em certificados digitais, eliminando a dependência exclusiva de senhas:
 * **Autoridade Certificadora (CA):** Criada internamente para assinar os certificados de servidor e cliente.
 * **Autenticação:** O usuário `guilherme_vpn` utiliza uma combinação de certificado pessoal e credenciais de sistema para estabelecer a conexão.
+* **Download:** O ultimo passo é baixar o arquivo do cliente `VPN_Administrativa_guilherme_vpn.ovpn` e adiciona-lo no **OpenVPN Connect**. 
 
 ## Validação e Testes de Conectividade
 Devido às limitações de roteamento do ambiente virtualizado (VMware), o teste de sucesso foi realizado apontando para o endereço de escuta configurado.
