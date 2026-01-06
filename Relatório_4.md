@@ -19,6 +19,8 @@ A segurança do túnel é baseada em certificados digitais, eliminando a depend�
 ## Validação e Testes de Conectividade
 Devido às limitações de roteamento do ambiente virtualizado (VMware), o teste de sucesso foi realizado apontando para o endereço de escuta configurado.
 
+![OpenVPN Connect](openvpn_connect.PNG)
+
 ### 1. Estabelecimento do Túnel
 O cliente **OpenVPN Connect** no Windows confirmou a conexão segura com sucesso.
 ![VPN Conectada](vpn_estabelecida.PNG)
