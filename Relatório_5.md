@@ -1,4 +1,4 @@
-# 📂 Relatório V: Backup e Resiliência (Disaster Recovery)
+# 📂 Relatório V: Backup e Integridade dos Dados (Disaster Recovery)
 
 Este relatório final documenta a estratégia de continuidade de negócio aplicada ao firewall OPNsense, garantindo a preservação de todas as configurações, regras e certificados implementados nos módulos anteriores.
 
