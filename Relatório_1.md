@@ -3,13 +3,13 @@
 Este relatório documenta a validação da rede interna (CLIENTES), demonstrando o funcionamento dos serviços essenciais de infraestrutura: DHCP para atribuição dinâmica de endereços e DNS para resolução de nomes.
 
 ## 🔗 Conectividade do Host Ubuntu
-O endpoint configurado com **Ubuntu 18.04** foi conectado à interface **CLIENTES** do firewall. A conectividade foi validada através da interface de rede do sistema operacional, confirmando o recebimento dos parâmetros de rede corretos.
+O host cliente configurado com **Ubuntu 18.04** foi conectado à interface **CLIENTES** do firewall. A conectividade foi validada através da interface de rede do sistema operacional, confirmando o recebimento dos parâmetros de rede corretos.
 
 ![Conexão Ubuntu](conexao_estabelecida_com_ubuntu.PNG)
 *Configurações de rede recebidas pelo Ubuntu: IP `192.168.10.100`, Gateway `192.168.10.1` e DNS `192.168.10.1`.*
 
 ## 🌐 Servidor DHCP (ISC DHCPv4)
-O OPNsense atua como servidor DHCP para a rede de clientes. A imagem abaixo comprova que o serviço está operacional e gerenciando ativamente os "leases" (concessões) de IP.
+O OPNsense atua como servidor DHCP para a rede de clientes, sendo configurado ainda na linha de comando do firewall ou na WebGUI, utilizei o range 192.168.10.100-192.168.10.200. A imagem abaixo comprova que o serviço está operacional e gerenciando ativamente os "leases" (concessões) de IP.
 
 ![Leases DHCP](servidor_dhcp_em_uso.PNG)
 *Tabela de Leases exibindo o host `ubuntu` com o endereço IP `192.168.10.100` e o respectivo endereço MAC.*
