@@ -14,10 +14,11 @@ O firewall foi configurado com três interfaces lógicas para isolamento de trá
 
 | Interface | Configuração (VMware) | Endereço IP | Função |
 | :--- | :--- | :--- | :--- |
-| **WAN** | NAT | 192.168.192.136/24 | Saída para Internet e recebimento de VPN |
-| **GERENCIAMENTO** | Host-Only | 192.168.1.1/24 | Acesso exclusivo à WebGUI pelo Host físico |
-| **CLIENTES** | LAN/Internal | 192.168.10.1/24 | Rede protegida para os dispositivos internos |
+| **WAN(EM0)** | NAT | 192.168.192.136/24 | permitir que o firewall receba um IP dinâmico (192.168.192.136/24) e tenha acesso à Internet. |
+| **GERENCIAMENTO(EM1)** | Host-Only | 192.168.1.1/24 | Esta interface é isolada e serve exclusivamente para que a minha máquina física (Windows) acesse a WebGUI com segurança. |
+| **CLIENTES(EM2)** | LAN/Rede Interna | 192.168.10.1/24 | É a rede protegida onde o Ubuntu 18 estará posicionado, recebendo IPs via DHCP do OPNsense |
 
+  
 ## 🛠️ Acesso Administrativo (WebGUI)
 O acesso à interface de gerenciamento foi estabelecido através do navegador na máquina física, apontando para o IP da interface de Gerenciamento.
 
