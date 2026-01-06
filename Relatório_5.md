@@ -15,7 +15,7 @@ A inteligência de toda a rede foi consolidada em um arquivo compacto de aproxim
 * Certificados digitais da CA e usuários da VPN.
 
 ![Arquivo Exportado](backup_pasta.PNG)
-*Evidência do arquivo `config-OPNsense...xml` salvo no diretório local, pronto para ser utilizado em uma eventual restauração de desastre (Disaster Recovery).*
+*Evidência do arquivo `config-OPNsense...xml` salvo no diretório local, pronto para ser utilizado em uma eventual restauração caso ocasionais problemas aconteçam.*
 
 ## 🎯 Conclusão do Projeto
 Com a execução deste último módulo, o projeto atingiu todos os objetivos propostos:
