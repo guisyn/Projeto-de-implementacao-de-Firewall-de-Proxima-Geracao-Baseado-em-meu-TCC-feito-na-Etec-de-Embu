@@ -13,7 +13,7 @@ Para este projeto, utilizei o VMware Workstation 17 Player, foram utilizadas dua
 ## 🌐 Configuração de Interfaces (Networking)
 O firewall foi configurado com três interfaces lógicas para isolamento de tráfego:
 
-![VPN Conectada](vpn_estabelecida.PNG)
+![Intefaces](interfaces_opnsense.PNG)
 
 | Interface | Configuração (VMware) | Endereço IP | Função |
 | :--- | :--- | :--- | :--- |
