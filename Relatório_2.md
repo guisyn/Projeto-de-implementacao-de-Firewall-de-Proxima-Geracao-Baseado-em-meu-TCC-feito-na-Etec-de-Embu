@@ -14,7 +14,7 @@ Conforme apresentado no planejamento inicial, as regras foram estabelecidas segu
 ### 1. Bloqueio de Acesso à WebGUI
 Tentativa de acesso ao IP do firewall da interface Clientes (`192.168.10.1`) a partir do navegador do Ubuntu.
 ![WebGUI Bloqueada](webgui_bloqueada.PNG)
-*O navegador exibe "Timed Out", confirmando que a regra de bloqueio está descartando os pacotes silenciosamente, e perceba que o navegado já diz que uma das causas pode ser uma regra de bloqueio vinda do firewall.*
+*O navegador exibe "Timed Out", confirmando que a regra de bloqueio está descartando os pacotes silenciosamente, e perceba que o navegador já diz que uma das causas pode ser uma regra de bloqueio vinda do firewall.*
 
 ### 2. Bloqueio de Portas Lógicas (Portas Perigosas)
 Teste realizado via terminal utilizando o comando `telnet` para validar o fechamento da porta 445.
@@ -27,7 +27,7 @@ Tentativa de acesso ao domínio `facebook.com`.
 *O navegador falha ao carregar a página devido à regra de bloqueio de DNS/IP aplicada no firewall.*
 
 ## 📜 Monitoramento em Tempo Real (Logs)
-A prova técnica definitiva é o **Live View** do OPNsense. Ele correlaciona as tentativas de acesso com as regras criadas no Relatório 0.
+A prova técnica definitiva é o **Live View** do OPNsense. Ele correlaciona as tentativas de acesso com as regras mostradas no Relatório 0.
 
 ![Logs de Bloqueio](mon_logs.PNG)
 *Filtrei para mostrar apenas os logs em vermelho, que exibem claramente a ação de **Block**, a interface (CLIENTES), o IP de origem (`192.168.10.100`) e a **Label** da regra que causou o bloqueio.*
