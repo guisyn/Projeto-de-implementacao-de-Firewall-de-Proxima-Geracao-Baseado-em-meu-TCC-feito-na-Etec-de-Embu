@@ -1,4 +1,4 @@
-# 📂 Relatório V: Backup e Confidencialidade dos Dados (Disaster Recovery)
+# 📂 Relatório V: Backup e Confidencialidade dos Dados
 
 Este relatório final documenta a estratégia de continuidade de negócio aplicada ao firewall OPNsense, garantindo a preservação de todas as configurações, regras e certificados implementados nos módulos anteriores.
 
