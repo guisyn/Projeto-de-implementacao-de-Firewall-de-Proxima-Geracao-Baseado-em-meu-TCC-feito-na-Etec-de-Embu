@@ -2,14 +2,14 @@
 
 Este relatório detalha a implementação das políticas de segurança na interface **CLIENTES**, focando em garantir a integridade da rede interna através de bloqueios estratégicos e monitoramento em tempo real.
 
-## 🛡️ Contextualização das Regras (Baseadas no Relatório 0)
+## Contextualização das Regras (Baseadas no Relatório 0)
 Conforme apresentado no planejamento inicial, as regras foram estabelecidas seguindo o princípio do privilégio mínimo. Cada bloqueio possui uma justificativa técnica:
 
 1. **Bloqueio de Gerência (WebGUI):** Impede que usuários comuns da interface de Clientes tentem acessar o painel administrativo do firewall.
 2. **Prevenção contra Ataques Cibernéticos:** Fechamento de portas consideradas vulneráveis(como a 445/SMB) para evitar propagação de malwares.
 3. **Bloqueio de Sites (Aliases):** Controle de produtividade e segurança, impedindo o acesso a redes sociais (ex: Facebook).
 
-## 🚫 Testes de Bloqueio e Comprovação (Lado do Cliente)
+## Testes de Bloqueio e Comprovação (Lado do Cliente)
 
 ### 1. Bloqueio de Acesso à WebGUI
 Tentativa de acesso ao IP do firewall da interface Clientes (`192.168.10.1`) a partir do navegador do Ubuntu.
@@ -26,7 +26,7 @@ Tentativa de acesso ao domínio `facebook.com`.
 ![Site Bloqueado](site_bloqueado.PNG)
 *O navegador falha ao carregar a página devido à regra de bloqueio de DNS/IP aplicada no firewall.*
 
-## 📜 Monitoramento em Tempo Real (Logs)
+## Monitoramento em Tempo Real (Logs)
 A prova técnica definitiva é o **Live View** do OPNsense. Ele correlaciona as tentativas de acesso com as regras mostradas no Relatório 0.
 
 ![Logs de Bloqueio](mon_logs.PNG)
