@@ -31,7 +31,7 @@ Clique nos links abaixo para acessar o detalhamento de cada etapa:
 * Implementação de túnel criptografado com certificados digitais.
 * Liberação de tráfego na interface WAN e teste de latência (<1ms).
 
-### 📑 [Relatório V: Backup e Resiliência](Relatório_5.md)
+### 📑 [Relatório V: Backup e Integridade dos Dados](Relatório_5.md)
 * Estratégia de Disaster Recovery com backup criptografado.
 * Exportação e proteção do arquivo de configuração XML.
 
