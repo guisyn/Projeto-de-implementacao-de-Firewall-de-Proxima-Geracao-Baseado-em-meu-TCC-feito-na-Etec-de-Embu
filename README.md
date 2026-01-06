@@ -11,7 +11,7 @@ O objetivo principal foi criar um ambiente controlado e seguro para uma pequena 
 
 Clique nos links abaixo para acessar o detalhamento de cada etapa:
 
-### 📑 [Relatório 0: Setup e Conectividade Base](Relatorio_0.md)
+### 📑 [Relatório 0: Setup e Conectividade Base](Relatório_0.md)
 * Configuração das 3 interfaces (WAN, Gerenciamento e Clientes).
 * Topologia lógica e acesso à WebGUI.
 
