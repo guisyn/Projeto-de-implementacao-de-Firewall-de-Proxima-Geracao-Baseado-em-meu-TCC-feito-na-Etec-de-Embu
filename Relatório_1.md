@@ -16,11 +16,11 @@ O OPNsense atua como servidor DHCP para a rede de clientes, sendo configurado ai
 
 ## 🔍 Resolução de Nomes (DNS)
 O serviço de DNS foi configurado para permitir que os clientes da rede interna resolvam nomes de domínio tanto internos quanto externos.
+
+![State_DNS](dns_state.PNG)
+
 * **Gateway como DNS:** O host Ubuntu utiliza o IP da interface CLIENTES (`192.168.10.1`) como seu resolvedor primário.
 * **Validação:** A navegação e a conectividade demonstradas nos testes subsequentes confirmam a integridade das consultas DNS através do firewall.
-
-![Leases DHCP](dns_state.PNG)
-*A imagem comprova o servidor DNS interno resolvendo nomes
 
 ---
 **Status do Módulo:** ✅ Concluído e Validado.
